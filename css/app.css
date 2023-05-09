@@ -57,7 +57,8 @@ h3 {
     background-color: var( --bs-green ) !important;
 }
 
-.bg-primary {
+.bg-primary,
+.btn-primary {
     background-color: var( --bs-blue ) !important; 
 }
 
@@ -79,7 +80,7 @@ h3 {
 
 @media ( min-width: 768px ) {
     .producto img {
-        height: 43rem;
+        height: 45rem;
         width: 100%;
         object-fit: cover;
     }
@@ -92,4 +93,13 @@ h3 {
 
 .categoria img:hover {
     transform: scale( 1.2 );
+}
+
+.galeria li:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    padding: 1rem;
+    font-size: 1.6rem;
 }
